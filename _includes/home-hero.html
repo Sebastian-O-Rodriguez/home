@@ -1,0 +1,59 @@
+<style>
+  h4 { display:inline-block;}
+  h2 { text-align: center; }
+</style>
+<div class="container">
+
+  <div class="row">
+
+    <div class="col-md-12">
+
+      <div class="hero-container">
+
+        <div class="hero-content" style="font-size:16px">
+
+          {% if site.infoL != '' or site.infoR != '' %}
+          <div class="row"> 
+              {% if site.infoL != '' %}
+              <div class="col-sm-6">
+                {{site.description1}}
+                <br>{{site.infoL}}
+                {% endif %}
+              </div>
+              {% if site.infoR != '' %}
+              <div class="col-sm-6">
+                <br>{{site.infoR}}
+                {% endif %}
+              </div>
+          </div>
+          {% endif %}
+
+          <div class="hero-buttons">
+            {% if site.linkedin_username != '' %}
+              <a href="https://linkedin.com/in/{{ site.linkedin_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-lg"></i>Linkedin</button></a>
+            {% endif %}
+            {% if site.github_username != '' %}
+              <a href="https://github.com/{{ site.github_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-github fa-lg"></i>Github</button></a>
+            {% endif %}
+            {% if site.soundcloud_username != '' %}
+              <a href="https://soundcloud.com/{{ site.soundcloud_username }}"><button class="btn btn-default btn-lg"><i class="fa fa-soundcloud fa-lg"></i>Soundcloud</button></a>
+            {% endif %}
+          </div>
+          {% if site.projectsTitle != "" %}
+          <p class="text-center">
+          <h2>{{site.projectsTitle}}</h2>
+          </p>
+          {% endif %}
+        </div>
+
+      </div>
+
+      <a class="section-jump text-center" href="#portfolio">
+        <i class="fa fa-angle-down fa-3x"></i>
+      </a>
+
+    </div>
+
+  </div>
+
+</div>

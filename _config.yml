@@ -1,0 +1,121 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Sebastian O Rodriguez"
+email: "rodriguez.o.sebas@gmail.com"
+description: "Home"
+description1: "<h4>Bio:</h4>"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sebastian-o-rodriguez.github.io/" # the base hostname & protocol for your site, e.g. https://example.com
+linkedin_username: "sebastianorodriguez"
+github_username: "sebastian-o-rodriguez"
+soundcloud_username: "rodriguez-o-sebas"
+infoL: "Exploring and Improving peoples' interactions with technology.<br><br> 
+        Currently working in Florida with local companies as a technology consultant, where I create websites, 
+        update record keeping systems, and help companies get up-to-speed with modern business softwares.
+        Independently working on the creation of easier-to-use music creation softwares. <br><br>
+        <h4>Contact:</h4><br> 
+        (954) 856 4903 <br> 
+        rodriguez-o-sebas@gmail.com"
+infoR: "<h4>Now:</h4> Fort Lauderdale, FL <br> 
+        <h4>From:</h4> Miami, FL <br><br><br>
+        <h4>What:</h4> Creator<br>
+        <h4>Focus:</h4> User Experience & Product Innovation
+        <br><br><br>
+        <h4>Education:</h4><br> Carnegie Mellon University | PA
+        <br> College of Engineering <br>
+        BS Technology and Sonic Product Innovation <br> Minor Business Administration
+        <br><br>"
+projectsTitle: "Projects"
+
+# Build settings
+markdown: kramdown
+# theme: phantom # Uncomment once published to RubyGems
+plugins:
+  - jekyll-paginate-v2
+
+############################################################
+# Site configuration for the Jekyll 3 Pagination Gem
+# The values here represent the defaults if nothing is set
+pagination:
+  
+  # Site-wide kill switch, disabled here it doesn't run at all 
+  enabled: true
+
+  # Set to 'true' to enable pagination debugging. This can be enabled in the site config or only for individual pagination pages
+  debug: false
+
+  # The default document collection to paginate if nothing is specified ('posts' is default)
+  collection: 'posts'
+
+  # How many objects per paginated page, used to be `paginate` (default: 0, means all)
+  per_page: 10
+
+  # The permalink structure for the paginated pages (this can be any level deep)
+  permalink: '/page/:num/' # Pages are index.html inside this folder (default)
+  #permalink: '/page/:num.html' # Pages are simple html files 
+  #permalink: '/page/:num' # Pages are html files, linked jekyll extensionless permalink style.
+
+  # Optional the title format for the paginated pages (supports :title for original page title, :num for pagination page number, :max for total number of pages)
+  title: ':title - page :num'
+
+  # Limit how many pagenated pages to create (default: 0, means all)
+  limit: 0
+  
+  # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
+  sort_field: 'date'
+
+  # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
+  sort_reverse: true
+
+  # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
+  category: 'posts'
+
+  # Optional, the default tag to use, omit to disable
+  tag: ''
+
+  # Optional, the default locale to use, omit to disable (depends on a field 'locale' to be specified in the posts, 
+  # in reality this can be any value, suggested are the Microsoft locale-codes (e.g. en_US, en_GB) or simply the ISO-639 language code )
+  locale: '' 
+
+ # Optional,omit or set both before and after to zero to disable. 
+ # Controls how the pagination trail for the paginated pages look like. 
+  trail: 
+    before: 2
+    after: 2
+
+  # Optional, the default file extension for generated pages (e.g html, json, xml).
+  # Internally this is set to html by default
+  extension: html
+
+  # Optional, the default name of the index file for generated pages (e.g. 'index.html')
+  # Without file extension
+  indexpage: 'index'
+
+############################################################
+
+### Phantom settings
+footer_text: 'Sebastian Osmel Rodriguez'
+admin_name: "&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sebastian Osmel Rodriguez"
+google_analytics: "" # Update with your own tracking ID
+enable_contact: false
+
+#### Phantom Navigation menu
+enable_nav: true
+nav_item:
+  - { url: "/", text: "Home" }
+  - { url: "/projects", text: Projects}
+  - { url: "/resume", text: "Resume &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"}
