@@ -1,7 +1,7 @@
 ---
 layout: inner
 title: Projects
-permalink: /home/projects/
+permalink: /sebastian/projects/
 ---
 ## Markdown
 
