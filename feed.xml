@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sebastian O Rodriguez</title>
+    <description>Home</description>
+    <link>https://sebastian-o-rodriguez.github.io/about/</link>
+    <atom:link href="https://sebastian-o-rodriguez.github.io/about/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Jul 2020 19:27:45 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2020 19:27:45 -0400</lastBuildDate>
+    <generator>Jekyll v3.8.7</generator>
+    
+      <item>
+        <title>Simple Sound</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
+        <link>https://sebastian-o-rodriguez.github.io/about/2020/07/01/simple-sound.html</link>
+        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io/about/2020/07/01/simple-sound.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Playlist Generation with ML Systems</title>
+        <description>
+</description>
+        <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
+        <link>https://sebastian-o-rodriguez.github.io/about/2020/07/01/playlist-prediction.html</link>
+        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io/about/2020/07/01/playlist-prediction.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

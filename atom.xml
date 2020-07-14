@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Sebastian O Rodriguez</title>
+ <link href="https://sebastian-o-rodriguez.github.io/atom.xml" rel="self"/>
+ <link href="https://sebastian-o-rodriguez.github.io/"/>
+ <updated>2020-07-14T19:27:45-04:00</updated>
+ <id>https://sebastian-o-rodriguez.github.io</id>
+ <author>
+   <name>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sebastian Osmel Rodriguez</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Simple Sound</title>
+   <link href="https://sebastian-o-rodriguez.github.io/2020/07/01/simple-sound.html"/>
+   <updated>2020-07-01T00:00:00-04:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io/2020/07/01/simple-sound</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Playlist Generation with ML Systems</title>
+   <link href="https://sebastian-o-rodriguez.github.io/2020/07/01/playlist-prediction.html"/>
+   <updated>2020-07-01T00:00:00-04:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io/2020/07/01/playlist-prediction</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
