@@ -1,6 +1,6 @@
 ---
 layout: inner
 title: Resume
-permalink: /about/resume/
+permalink: /resume/
 ---
 ## R E S U M E
