@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Sebastian O Rodriguez</title>
+ <link href="https://sebastian-o-rodriguez.github.io//atom.xml" rel="self"/>
+ <link href="https://sebastian-o-rodriguez.github.io//"/>
+ <updated>2020-07-14T16:05:51-04:00</updated>
+ <id>https://sebastian-o-rodriguez.github.io/</id>
+ <author>
+   <name>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sebastian Osmel Rodriguez</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Simple Sound</title>
+   <link href="https://sebastian-o-rodriguez.github.io//2020/07/01/simple-sound.html"/>
+   <updated>2020-07-01T00:00:00-04:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//2020/07/01/simple-sound</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Playlist Generation with ML Systems</title>
+   <link href="https://sebastian-o-rodriguez.github.io//2020/07/01/playlist-prediction.html"/>
+   <updated>2020-07-01T00:00:00-04:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//2020/07/01/playlist-prediction</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Phantom</title>
+   <link href="https://sebastian-o-rodriguez.github.io//development/design/2016/02/20/phantom-jekyll-template.html"/>
+   <updated>2016-02-20T16:15:00-05:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//development/design/2016/02/20/phantom-jekyll-template</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rescue Themes</title>
+   <link href="https://sebastian-o-rodriguez.github.io//development/design/2016/02/20/rescue-themes.html"/>
+   <updated>2016-02-20T10:56:00-05:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//development/design/2016/02/20/rescue-themes</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Weathercast</title>
+   <link href="https://sebastian-o-rodriguez.github.io//development/2016/02/20/weathercast.html"/>
+   <updated>2016-02-20T10:56:00-05:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//development/2016/02/20/weathercast</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Bloc Jams Angular</title>
+   <link href="https://sebastian-o-rodriguez.github.io//development/2016/02/20/bloc-jams-angular.html"/>
+   <updated>2016-02-20T09:15:00-05:00</updated>
+   <id>https://sebastian-o-rodriguez.github.io//development/2016/02/20/bloc-jams-angular</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+
+</feed>
