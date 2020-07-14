@@ -3,10 +3,10 @@
   <channel>
     <title>Sebastian O Rodriguez</title>
     <description>Home</description>
-    <link>https://sebastian-o-rodriguez.github.io//home/</link>
-    <atom:link href="https://sebastian-o-rodriguez.github.io//home/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2020 16:25:53 -0400</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2020 16:25:53 -0400</lastBuildDate>
+    <link>https://sebastian-o-rodriguez.github.io/sebastian/</link>
+    <atom:link href="https://sebastian-o-rodriguez.github.io/sebastian/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Jul 2020 16:28:37 -0400</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2020 16:28:37 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://sebastian-o-rodriguez.github.io//home/2020/07/01/simple-sound.html</link>
-        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io//home/2020/07/01/simple-sound.html</guid>
+        <link>https://sebastian-o-rodriguez.github.io/sebastian/2020/07/01/simple-sound.html</link>
+        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io/sebastian/2020/07/01/simple-sound.html</guid>
         
         
       </item>
@@ -25,8 +25,8 @@
         <description>
 </description>
         <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
-        <link>https://sebastian-o-rodriguez.github.io//home/2020/07/01/playlist-prediction.html</link>
-        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io//home/2020/07/01/playlist-prediction.html</guid>
+        <link>https://sebastian-o-rodriguez.github.io/sebastian/2020/07/01/playlist-prediction.html</link>
+        <guid isPermaLink="true">https://sebastian-o-rodriguez.github.io/sebastian/2020/07/01/playlist-prediction.html</guid>
         
         
       </item>
