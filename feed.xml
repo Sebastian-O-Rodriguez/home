@@ -5,8 +5,8 @@
     <description>Home</description>
     <link>https://sebastian-o-rodriguez.github.io/about/</link>
     <atom:link href="https://sebastian-o-rodriguez.github.io/about/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 15 Jul 2020 15:36:52 -0400</pubDate>
-    <lastBuildDate>Wed, 15 Jul 2020 15:36:52 -0400</lastBuildDate>
+    <pubDate>Wed, 15 Jul 2020 15:43:19 -0400</pubDate>
+    <lastBuildDate>Wed, 15 Jul 2020 15:43:19 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -21,7 +21,7 @@
       </item>
     
       <item>
-        <title>Playlist Generation with ML System</title>
+        <title>Playlist Generation Using Machine Learning</title>
         <description>
 </description>
         <pubDate>Wed, 01 Jul 2020 00:00:00 -0400</pubDate>
