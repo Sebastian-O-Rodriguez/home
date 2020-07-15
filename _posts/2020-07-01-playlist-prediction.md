@@ -7,5 +7,5 @@ featured_image: '/img/posts/02_playlist-gen-1806x842.png'
 project_link: "https://github.com/Sebastian-O-Rodriguez/LENS/blob/master/playlist_prediction_in_LENS.pdf"
 button_icon: 'github'
 button_text: 'Read Paper'
-lead_text: 'Creating a music playlist based on a user's preferences.'
+lead_text: "Creating a music playlist based on user's preferences."
 ---
