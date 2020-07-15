@@ -116,6 +116,6 @@ enable_contact: false
 #### Phantom Navigation menu
 enable_nav: true
 nav_item:
-  - { url: "/", text: "Home" }
-  - { url: "/projects/", text: Projects}
-  - { url: "/resume/", text: "Resume &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"}
+  - { url: "{{baseurl}}", text: "Home" }
+  - { url: "{{baseurl}}/projects/", text: Projects}
+  - { url: "{{baseurl}}/resume/", text: "Resume &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;"}
