@@ -109,7 +109,7 @@ pagination:
 
 ### Phantom settings
 footer_text: 'Sebastian Osmel Rodriguez'
-admin_name: "&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Sebastian Osmel Rodriguez"
+admin_name: "Sebastian Osmel Rodriguez"
 google_analytics: "" # Update with your own tracking ID
 enable_contact: false
 
