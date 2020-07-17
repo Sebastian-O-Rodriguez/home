@@ -39,7 +39,8 @@ infoR: "<h4>Now:</h4> Fort Lauderdale, FL <br>
         <br> College of Engineering <br>
         BS Technology and Sonic Product Innovation <br> Minor Business Administration
         <br><br>"
-projectsTitle: "Projects"
+projectsTitle: "Latest Work"
+projectsSubtitle: "I have experience in a number of areas. Have a look at my most recent projects."
 
 # Build settings
 markdown: kramdown
