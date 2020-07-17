@@ -15,13 +15,14 @@
           {% if site.infoL != '' or site.infoR != '' %}
           <div class="row"> 
               {% if site.infoL != '' %}
-              <div class="col-sm-6">
+              <div class="col-md-offset-1 col-sm-4">
                 {{site.description1}}
                 <br>{{site.infoL}}
                 {% endif %}
               </div>
+              <div class="col-sm-1 col-md-offset-1"></div>
               {% if site.infoR != '' %}
-              <div class="col-sm-6">
+              <div class="col-sm-4">
                 <br>{{site.infoR}}
                 {% endif %}
               </div>
