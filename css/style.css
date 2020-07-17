@@ -5841,7 +5841,7 @@ article {
   margin: 5em 0; }
 
 p {
-  line-height: 1.8;
+  line-height: 3;
   font-size: 1.3em; }
 
 a {
@@ -5879,8 +5879,8 @@ button.btn, input.btn {
 
 .main {
   background-color: white;
-  border-left: solid 0px #cedfea;
-  border-right: solid 0px #cedfea; }
+  border-left: solid 2px #222324;
+  border-right: solid 2px #222324; }
   .main.container {
     padding: 0; }
 
@@ -5895,13 +5895,13 @@ button.btn, input.btn {
   -o-transition: top 0.2s ease-in;
   transition: top 0.2s ease-in; }
   .section-jump:hover {
-    top: 3px; }
+    top: 0px; }
 
 /*--------------------------------------------------------------
 	2.0 Home Hero
 --------------------------------------------------------------*/
 .hero-container {
-  margin: 10em 0 9em 0; }
+  margin: 15em 0 9em 0; }
   @media only screen and (max-width: 768px) {
     .hero-container {
       margin: 5em 0 5em 0; } }
@@ -5910,7 +5910,7 @@ button.btn, input.btn {
       margin: 5em 0 5em 0; } }
 
 .hero-content {
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   display: table; }
   @media only screen and (min-width: 992px) and (max-width: 1195px) {
