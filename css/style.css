@@ -5976,10 +5976,11 @@ button.btn, input.btn {
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
-  margin-top: 10em; }
+  margin-top: 0px;
+  width: 95%; }
   @media only screen and (max-width: 768px) {
     #portfolio .container {
-      margin-top: 2em; } }
+      margin-top: 0em; } }
   #portfolio .container .break {
     margin: 8em 0; }
     @media only screen and (max-width: 768px) {
@@ -6027,7 +6028,7 @@ button.btn, input.btn {
     .content-wrap img.img-responsive {
       display: none; } }
   .content-wrap .content {
-    margin-top: 5em;
+    margin-top: 0em;
     margin-left: 5em; }
     @media only screen and (max-width: 768px) {
       .content-wrap .content {
@@ -6044,7 +6045,7 @@ button.btn, input.btn {
         height: 3px;
         background-color: #ECEFF1; }
     .content-wrap .content .excerpt {
-      width: 80%; }
+      width: 60%; }
       @media only screen and (max-width: 768px) {
         .content-wrap .content .excerpt {
           width: 100%; } }
