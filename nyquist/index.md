@@ -21,7 +21,7 @@ To create my composition using Nyquist, I started with the below nineteen second
 <br>
 <audio controls="controls">
   <source>	
-   <script src="https://github.com/Sebastian-O-Rodriguez/about/blob/master/audio/100-grandkids-sample.wav"></script>
+   <script src="/audio/100-grandkids-sample.wav"></script>
   </source>
   <p>Your browser does not support the audio element.</p>
 </audio>
