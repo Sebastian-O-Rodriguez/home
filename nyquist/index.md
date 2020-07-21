@@ -17,7 +17,7 @@ is described as "a language for sound synthesis and music composition. Unlike sc
 <br><br>
 To create my composition using Nyquist, I started with the below sample from Mac Miller's "100 Grandkids" and loaded into it an SAL program. 
 <audio controls="controls">
-  <source type="audio/wav" src="https://github.com/about/tree/master/snd/100-grandkids-sample.wav"></source>
+  <source type="audio/wav" src="https://github.com/sebastian-o-rodriguez/about/blob/master/audio/100-grandkids-sample.wav"></source>
   <p>Your browser does not support the audio element.</p>
 </audio>
 </div>
