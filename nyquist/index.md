@@ -3,8 +3,8 @@ layout: inner
 title: nyquist
 permalink: /command-line-music/
 ---
-## 1
-## 2 
+## <br>
+## <br>
 ## <br>
 <div align="center">
 <h3>Composing Music with Nyquist SAL</h3>
@@ -20,7 +20,13 @@ To create my composition using Nyquist, I started with the below nineteen second
 <strong>&emsp;&emsp;&emsp;&emsp;100 Grandkids, Mac Miller</strong>
 <br>
 <audio controls="controls">
-  <source type="audio/wav" src="https://github.com/Sebastian-O-Rodriguez/about/blob/master/audio/100-grandkids-sample.wav"></source>
+  <source>	
+   <script src="https://github.com/Sebastian-O-Rodriguez/about/blob/master/audio/100-grandkids-sample.wav"></script>
+  </source>
   <p>Your browser does not support the audio element.</p>
 </audio>
+
+
+<br><br>
+KEEP WRITING HERE...
 </div>
