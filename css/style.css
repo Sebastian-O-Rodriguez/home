@@ -5879,8 +5879,8 @@ button.btn, input.btn {
 
 .main {
   background-color: white;
-  border-left: solid 2px #222324;
-  border-right: solid 2px #222324; }
+  border-left: groove 3px #0c1b24;
+  border-right: groove 3px #0c1b24; }
   .main.container {
     padding: 0; }
 
@@ -5976,11 +5976,11 @@ button.btn, input.btn {
 	3.0 Posts
 --------------------------------------------------------------*/
 #portfolio .container {
-  margin-top: 0px;
+  margin-top: 10em;
   width: 95%; }
   @media only screen and (max-width: 768px) {
     #portfolio .container {
-      margin-top: 0em; } }
+      margin-top: 2em; } }
   #portfolio .container .break {
     margin: 8em 0; }
     @media only screen and (max-width: 768px) {
@@ -6028,7 +6028,7 @@ button.btn, input.btn {
     .content-wrap img.img-responsive {
       display: none; } }
   .content-wrap .content {
-    margin-top: 0em;
+    margin-top: 5em;
     margin-left: 5em; }
     @media only screen and (max-width: 768px) {
       .content-wrap .content {
@@ -6045,7 +6045,7 @@ button.btn, input.btn {
         height: 3px;
         background-color: #ECEFF1; }
     .content-wrap .content .excerpt {
-      width: 60%; }
+      width: 80%; }
       @media only screen and (max-width: 768px) {
         .content-wrap .content .excerpt {
           width: 100%; } }
