@@ -33,6 +33,7 @@ This is how interaction with nyquist is, and how the composition was created. In
 <br>
 <br>
 In the end, my composition "Elevator Service" was created by running a simple function
-<mark>play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)</mark>. Functions <mark>comp()</mark> and <mark>make-beat()</mark> are functions that call other functions. To see this in more detail, view <a href="https://github.com/Sebastian-O-Rodriguez/about/tree/master/command-line-music/comp/comp.sal">the full composition</a>,written in SAL.
+<mark>play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)</mark>. Functions <mark>comp()</mark> and <mark>make-beat()</mark> are functions that call other functions. To see this in more detail, view <a href="https://github.com/Sebastian-O-Rodriguez/about/tree/master/command-line-music/comp/comp.sal">the full composition</a>, written in SAL.<br>  <h5>Listen to Composition</h5>
+<audio src="audio/elevator-service.mp3" controls preload></audio>
 
 </div>
