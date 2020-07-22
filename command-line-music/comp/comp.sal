@@ -1,0 +1,105 @@
+exec autonorm-off()
+
+load "reverb.lsp"
+
+variable 100gk = "./100-grandkids-sample.wav"
+
+;LOAD SAMPLE
+define function load-sample(str-factor, amps)
+  begin
+    with s = s-read(100gk)
+    set s = s-reverse(s)
+    set s = (sound(s) ~ str-factor) * amps
+    return s
+  end
+
+;CREATE 1 BASS SOUND
+define function bass(hz: 60, amps: 0.6, sf: 1)
+  begin
+    return  (hzosc(hz) ~ sf) * pwl(0, 0.05, 0.35, 0.7, 0.9, 0.7, sf, 0.7, sf) * amps
+  end
+
+
+;CREATE 1 BASS LOOP
+define function beat()
+  begin
+    with b1, b2, b3 = 0
+    set b1 = (bass(hz: 70, amps: .8, sf: 1.6))
+    set b2 = (bass(hz: 80, amps: .8, sf: 1.6))
+    set b3 = (bass(hz: 90, amps: .8, sf: 1.6))
+    return sim(b1,
+               cue(b3) @ 1.5,
+               cue(b2) @ 3.0,
+               cue(b3) @ 4.5,
+               cue((sound(b1) ~ 1.2)) @ 6,
+               cue(sound(b2) ~ 0.9) @ 7.8
+               )
+               
+  end
+; LOOP BASSLINE AS NEEDED
+define function make-beat()
+  begin
+    with offset = 0
+    set offset = vector(s-rest(28), s-rest(28))
+    return sim(offset, cue(beat()) @ 28,
+               cue(beat()) @ 37,
+               cue(beat()) @ 46,
+               cue(beat()) @ 55,
+               cue(beat()) @ 73,
+               cue(beat()) @ 82,
+               cue(beat()) @ 91,
+               cue(beat()) @ 100
+             )
+  end
+
+;SAMPLE MELODY AND MIXING
+define function comp()
+  begin
+    with intro, s, s1, p, p2, beat
+    set intro = load-sample(0.7, 0.2)
+    set s = load-sample(1.5, 0.8)
+    set p = load-sample(1.5, 0.2)
+    set p = p * lfo(4, 35.3696) * 0.8
+    set s1 = s * const(1, 15.3)
+    set intro = seq(intro, vector(s-rest(4), s-rest(4)))
+    set intro = reverb(intro, 4)
+    ;lowpass6(s1, 500)
+    return sim(((intro * pwl(0, 0.1, 6, 0.3, 17))),
+                 cue(lowpass6(sound(s1), 500)) @ 13.7,
+                 cue(sound(s) * pwl(0, 0.3, 13, 1, 13)) @ 28,
+                 cue(p) @ 28,
+                 cue(lowpass6(sound(s), 500) * 0.6) @ 56,
+                 cue(intro * 0.4) @ 56,
+                 cue(lowpass6(sound(s1), 500) * 0.6) @ 83,
+                 cue(intro * 0.4) @ 82,
+                 (cue(sound(intro) * 0.4 * pwl(0, 0.7, 13.5, 0, 13.5)) @ 97)
+               )
+  end
+
+
+;COMBINE BASSLINE AND MELODY
+play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

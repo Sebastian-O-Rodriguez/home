@@ -91,10 +91,16 @@ To create my composition using Nyquist, I started with the nineteen second sampl
 
 <br /><br />
 In order to create the sounds in my final composition, I employed numerous signal processing techniques such as sound-stretching, amplitude modulation, and low-pass filters. Additionally, the creation of my composition was primarily executed using 
-multiple functions like the <i>Load Sample</i>.
+multiple functions like the <i>Load Sample</i>. For those unfamiliar with Nyquist's coding syntax SAL, the Load Sample function reads the wave file, plays it backwards, stretches the sample by a given value, and sets its volume with amps. For those familiar with python and other common programming languages, these functions may be readable, although syntax is distinct from more widespread languages.
 <br /><br />
 <strong><i>Load Sample Function</i></strong>
-<img class="img-responsive" src="https://sebastian-o-rodriguez.github.io/about/img/projects/ls-and-bs-functions1320x668.png" title="Functions in Nyquist" />
+<img class="img-responsive" src="img/ls-and-bs-functions-1320x668.png" title="Functions in Nyquist" />
+<br /><br />
+This is how interaction with nyquist is, and how the composition was created. Interestingly, the techniques used to process and synthesize sounds are no difference from graphical interfaces other softwares like GarageBand, althought this format offers greater control over the produced sound. It comes at an obvious cost of having to code your actions instead of manipulating the sound more interactively. 
+<br />
+<br />
+In the end, my composition "Elevator Service" was created by running a simple function
+<mark>play sim(sound(comp()) * 0.7, sound(make-beat()) * 0.7)</mark>. Functions <mark>comp()</mark> and <mark>make-beat()</mark> are functions that call other functions. To see this in more detail, view <a href="https://github.com/Sebastian-O-Rodriguez/about/tree/master/command-line-music/comp/comp.sal">the full composition</a>,written in SAL.
 
 </div>
 
