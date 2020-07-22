@@ -27,6 +27,6 @@ In order to create the sounds in my final composition, I employed numerous signa
 multiple functions like the <i>Load Sample</i>.
 <br><br>
 <strong><i>Load Sample Function</i></strong>
-<img class="img-responsive" src="https://sebastian-o-rodriguez.github.io/about/img/projects/ls-and-bs-functions1320x668.png" title="Functions in Nyquist">
+<img class="img-responsive" src="img/ls-and-bs-functions1320x668.png" title="Functions in Nyquist">
 
 </div>
