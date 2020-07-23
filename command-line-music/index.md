@@ -10,9 +10,10 @@ permalink: /command-line-music/
 </div>
 <br>
 <div align="left">
+During my time at Carnegie Mellon University, I studied under Roger Dannenberg, professor of computer science, art and music at CMU, as well as the lead creator of Nyquist.
 Nyquist, 
 found <a href="https://www.cs.cmu.edu/~rbd/doc/nyquist/part2.html#2">here</a>, 
-is described as "a language for sound synthesis and music composition. Unlike score languages that tend to deal only with events, or signal processing languages that tend to deal only with signals and synthesis, Nyquist handles both in a single integrated system." This means that signal processing and sound synthesis in Nyquist is more akin to writing programs in Python than it is to creating music with a digital audio workstation (DAW), like GarageBand. I studied under Roger Dannenberg, professor of computer science, art and music at Carnegie Mellon University, as well as the lead creator of Nyquist.
+is described as "a language for sound synthesis and music composition. Unlike score languages that tend to deal only with events, or signal processing languages that tend to deal only with signals and synthesis, Nyquist handles both in a single integrated system." This means that signal processing and sound synthesis in Nyquist is more akin to writing programs in Python than it is to creating music with a digital audio workstation (DAW), like GarageBand.
 <br><br>
 To create my composition using Nyquist, I started with the nineteen second sample loaded into the nyquist IDE, playable below.
 <br><br>

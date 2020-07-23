@@ -9,7 +9,21 @@ permalink: /lens-playlist/
 </div>
 <br>
 <div align="left">
-LENS, short for Light Efficient Network Simulator,
-found <a href="https://ni.cmu.edu/~plaut/Lens/">here</a>, was created  by so&so, and is used by David Plaut, head of the Plaut Lab at CMU.
-
+As a student at Carnegie Mellon University, I was fortunate enough to have the opportunity to learn from and work with David Plaut, professor of pyschology with a joint appointment in the Carnegie Mellon Neuroscience Insitute, and the head of the Plaut Lab at CMU. Lens, a <a href="https://ni.cmu.edu/~plaut/Lens/">neural network simulator</a>, was created by a CMU graduate student and is also used at the MIT tedlab. For my research, I used LENS, short for Light Efficient Network Simulator, to create a neural network that generates a playlist of songs, based off an input of one song and influenced by a user's musical taste.
+<br><br>
+Background and study setup
+<br><br>
+depictions of FFD and REC networks
+<br><br>
+description of dataset, methodology, and learning processes.
+<br><br>
+images of early FFD data
+<br><br>
+limitations of FFD and lack of insights. Information and improvements of REC
+<br><br>
+images of REC network
+<br><br>
+conclusions of the research
+<br><br>
+button to access full research paper.
 </div>
