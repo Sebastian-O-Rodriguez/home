@@ -19,7 +19,7 @@ email: "rodriguez.o.sebas@gmail.com"
 description: "Home"
 description1: "<h4>Bio:</h4>"
 baseurl: "/about" # the subpath of your site, e.g. /blog
-url: "www.sebrod.com" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://www.sebrod.com" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: "sebastianorodriguez"
 github_username: "sebastian-o-rodriguez"
 soundcloud_username: "rodriguez-o-sebas"
