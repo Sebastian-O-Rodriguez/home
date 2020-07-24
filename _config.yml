@@ -17,7 +17,7 @@
 title: "Sebastian O Rodriguez"
 email: "rodriguez.o.sebas@gmail.com"
 description: "Home"
-description1: "<br><h4>Bio:</h4>"
+description1: "<h4>Bio:</h4>"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sebrod.com" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: "sebastianorodriguez"
