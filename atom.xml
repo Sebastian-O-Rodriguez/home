@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>Sebastian O Rodriguez</title>
- <link href="sebrod.com/atom.xml" rel="self"/>
- <link href="sebrod.com/"/>
- <updated>2020-07-24T18:41:19-04:00</updated>
- <id>sebrod.com</id>
+ <link href="www.sebrod.com/atom.xml" rel="self"/>
+ <link href="www.sebrod.com/"/>
+ <updated>2020-07-24T18:42:23-04:00</updated>
+ <id>www.sebrod.com</id>
  <author>
    <name>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sebastian Osmel Rodriguez</name>
    <email></email>
@@ -14,27 +14,27 @@
  
  <entry>
    <title>Simple Sound</title>
-   <link href="sebrod.com/2020/07/01/simple-sound.html"/>
+   <link href="www.sebrod.com/2020/07/01/simple-sound.html"/>
    <updated>2020-07-01T00:00:00-04:00</updated>
-   <id>sebrod.com/2020/07/01/simple-sound</id>
+   <id>www.sebrod.com/2020/07/01/simple-sound</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Playlist Generation with ML</title>
-   <link href="sebrod.com/2020/07/01/playlist-prediction.html"/>
+   <link href="www.sebrod.com/2020/07/01/playlist-prediction.html"/>
    <updated>2020-07-01T00:00:00-04:00</updated>
-   <id>sebrod.com/2020/07/01/playlist-prediction</id>
+   <id>www.sebrod.com/2020/07/01/playlist-prediction</id>
    <content type="html">
 </content>
  </entry>
  
  <entry>
    <title>Composing Music using Programming</title>
-   <link href="sebrod.com/2020/07/01/nyquist-comp.html"/>
+   <link href="www.sebrod.com/2020/07/01/nyquist-comp.html"/>
    <updated>2020-07-01T00:00:00-04:00</updated>
-   <id>sebrod.com/2020/07/01/nyquist-comp</id>
+   <id>www.sebrod.com/2020/07/01/nyquist-comp</id>
    <content type="html">
 </content>
  </entry>
