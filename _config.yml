@@ -17,13 +17,13 @@
 title: "Sebastian O Rodriguez"
 email: "rodriguez.o.sebas@gmail.com"
 description: "Home"
-description1: "<h4>Bio:</h4>"
+description1: "<br><h4>Bio:</h4>"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sebrod.com" # the base hostname & protocol for your site, e.g. https://example.com
 linkedin_username: "sebastianorodriguez"
 github_username: "sebastian-o-rodriguez"
 soundcloud_username: "rodriguez-o-sebas"
-infoL: "<br>Exploring and Improving peoples' interactions with technology.<br><br> 
+infoL: "Exploring and Improving peoples' interactions with technology.<br><br> 
         Currently working in Florida with local companies as a technology consultant, where I create websites, 
         update record keeping systems, and help companies get up-to-speed with modern business softwares.
         Independently working on the creation of easier-to-use music creation softwares. <br><br>
