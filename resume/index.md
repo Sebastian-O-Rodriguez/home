@@ -4,4 +4,4 @@ title: Resume
 permalink: /resume/
 ---
 ## <br>
-## R E S U M E
+<h4><p align="center">R E S U M E</p></h4>
