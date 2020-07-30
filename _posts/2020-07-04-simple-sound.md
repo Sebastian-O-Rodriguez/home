@@ -2,7 +2,7 @@
 layout: inner
 position: right
 title: 'Simple Sound'
-date: 2020-07-01
+date: 2020-07-04
 featured_image: '/img/posts/03_BW_simple-sound.png'
 project_link: "https://sebastian-o-rodriguez.github.io/about/simple-sound"
 button_icon: 'book'
