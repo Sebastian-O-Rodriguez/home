@@ -4,7 +4,7 @@
  <title>Sebastian O Rodriguez</title>
  <link href="https://sebrod.com/atom.xml" rel="self"/>
  <link href="https://sebrod.com/"/>
- <updated>2020-07-27T18:03:42-04:00</updated>
+ <updated>2020-07-30T18:07:53-04:00</updated>
  <id>https://sebrod.com</id>
  <author>
    <name>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sebastian Osmel Rodriguez</name>
@@ -14,9 +14,27 @@
  
  <entry>
    <title>Simple Sound</title>
-   <link href="https://sebrod.com/2020/07/01/simple-sound.html"/>
-   <updated>2020-07-01T00:00:00-04:00</updated>
-   <id>https://sebrod.com/2020/07/01/simple-sound</id>
+   <link href="https://sebrod.com/2020/07/04/simple-sound.html"/>
+   <updated>2020-07-04T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/04/simple-sound</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Analyzing Song Data Tutorial</title>
+   <link href="https://sebrod.com/2020/07/03/tutorial.html"/>
+   <updated>2020-07-03T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/03/tutorial</id>
+   <content type="html">
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Composing Music using Programming</title>
+   <link href="https://sebrod.com/2020/07/02/nyquist-comp.html"/>
+   <updated>2020-07-02T00:00:00-04:00</updated>
+   <id>https://sebrod.com/2020/07/02/nyquist-comp</id>
    <content type="html">
 </content>
  </entry>
@@ -26,15 +44,6 @@
    <link href="https://sebrod.com/2020/07/01/playlist-prediction.html"/>
    <updated>2020-07-01T00:00:00-04:00</updated>
    <id>https://sebrod.com/2020/07/01/playlist-prediction</id>
-   <content type="html">
-</content>
- </entry>
- 
- <entry>
-   <title>Composing Music using Programming</title>
-   <link href="https://sebrod.com/2020/07/01/nyquist-comp.html"/>
-   <updated>2020-07-01T00:00:00-04:00</updated>
-   <id>https://sebrod.com/2020/07/01/nyquist-comp</id>
    <content type="html">
 </content>
  </entry>
