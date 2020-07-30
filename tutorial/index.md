@@ -1,15 +1,8 @@
 ---
 layout: inner
-title: Jupyter Tutorial: Analyzing Song Data
-permalink: /song-data-tutorial/
+title: tutorial
+permalink: /jupyter-tutorial/
 ---
-<style>
-img.ring {
-  height: 50%;
-  width: 50%;
-}
-</style>
-
 <br>
 <div align="center">
 <h3>Jupyter Notebook Tutorial: Analyze Song Data</h3>
