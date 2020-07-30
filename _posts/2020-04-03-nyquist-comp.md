@@ -1,8 +1,8 @@
 ---
 layout: inner
-position: right
+position: left
 title: 'Composing Music using Programming'
-date: 2020-07-02
+date: 2020-07-03
 featured_image: '/img/posts/02_nyquist-comp.png'
 project_link: "https://sebastian-o-rodriguez.github.io/about/command-line-music"
 button_icon: 'book'
