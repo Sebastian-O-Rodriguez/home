@@ -3,6 +3,17 @@ layout: inner
 title: tutorial
 permalink: /tutorial/
 ---
+<style>
+img.ring {
+  height: 60%;
+  width: 60%;
+}
+img.ring2 {
+  height: 80%;
+  width: 70%;
+}
+</style>
+
 <br>
 <div align="center">
 <h3>Analyzing Song Data: A Jupyter Tutorial </h3>
@@ -39,7 +50,7 @@ Now that we have our well-formatted dictionary, we need to convert it to a Panda
 From here, we are able to use linear regression, another one of the libraries we have through Anaconda, to see if there is some sort of discernible trend in our music taste.
 <br><br>
 <h5><p align="center">Linear Regression, Using X and Y values to predict Z </p></h5>
-<img class="img-responsive" src="img/lr-visual.png" title="Linear Regression Line">
+<img class="ring" src="img/lr-visual.png" title="Linear Regression Line">
 <br><br>
 In the notebook tutorial, we delve deeper into each aspect, from collecting the data and preprocessing, to converting into a Pandas DataFrame, to visualization. Take into account this tutorial uses 1000 songs from my personal library, meaning results will differ with changes in the dataset. The button below to view the full notebook, which includes full walkthrough and the entire code.
 <br><br>
