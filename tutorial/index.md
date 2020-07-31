@@ -9,7 +9,7 @@ permalink: /jupyter-tutorial/
 </div>
 <br>
 <div align="left">
-ipsum dipsum.
+During my time as an undergraduate, I was fortunate to study under Zico Kolter, Associate Professor in the Computer Science Department at Carnegie Mellon University, who focuses on machine learning, optimization, and control. Using <a href="https://jupyter.org/">Jupyter Notebook</a>, I create a tutorial that helps introduce the reader to the basic methods in gathering, processing, and interpreting datasets of songs.
 <br><br>
 Detlef Shrempf
 <br><br>
