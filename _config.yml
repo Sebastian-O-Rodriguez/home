@@ -26,24 +26,27 @@ soundcloud_username: "rodriguez-o-sebas"
 infoL: "Exploring and Improving peoples' interactions with music and technology.<br> 
         Based in Florida, preparing to move toward the west coast. 
         <br><br>
-        Avid music listener. Excited music creator.
-        Most anachronistic when listening to music on vinyl.
+        Avid music listener. Passionate software creator.
+       Sometimes excitable when discovering something new.
 
         <br><br>
         Searching for work where I can further explore the intersection of music and technology.
-        <br><br>
+        <br>
+        <hr>
         <h4>Contact:</h4><br> 
         (954) 856 4903 <br> 
         rodriguez.o.sebas@gmail.com"
 infoR: "<h4>Now:</h4> Fort Lauderdale, FL <br> 
-        <h4>From:</h4> Miami, FL <br><br><br>
-        <h4>What:</h4> Music Creation<br>
+        <h4>From:</h4> Miami, FL 
+        <br><hr>
+        <h4>What:</h4> &nbsp;Software Development<br> &emsp;&emsp;&emsp;&emsp;Music Creation
+        <br>
         <h4>Focus:</h4> Product Innovation
         <br> &emsp;&emsp;&emsp;&emsp;User Experience
-        <br><br><br>
+        <br><hr>
         <h4>Education:</h4><br> Carnegie Mellon University | PA
         <br> College of Engineering <br>
-        Bachelor of Science
+        Bachelor's of Science
         <br>Technology and Sonic Product Innovation <br> Minor Business Administration
         <br><br>"
 projectsTitle: "Projects"
@@ -116,7 +119,7 @@ pagination:
 ############################################################
 
 ### Phantom settings
-footer_icon: <img src="https://sebastian-o-rodriguez.github.io/about/img/favicon.png" alt="favicon" width="50" height="110">
+footer_icon: <img src="https://sebastian-o-rodriguez.github.io/about/img/favicon.png" alt="favicon" style="width:130px;height:130px;" />
 admin_name: "&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Sebastian Osmel Rodriguez"
 google_analytics: "" # Update with your own tracking ID
 enable_contact: false
