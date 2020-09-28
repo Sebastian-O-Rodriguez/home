@@ -2,8 +2,8 @@
   h4 { display:inline-block;}
   h2 { text-align: center; }
   img.profile{
-  height: 35%;
-  width: 45%;
+  height: 15%;
+  width: 65%;
   }
   hr{
   border-top: 1px solid black;
@@ -17,28 +17,29 @@
     <div class="col-md-12">
 
       <div class="hero-container">
-      	<div class="hero-container">
-	        <div class="hero-content" style="font-size:16px">
-	        	<br><br>
-	          {% if site.infoL != '' %}
-	          <div class="row"> 
-	              {% if site.infoL != '' %}
-	              <div class="col-md-offset-1 col-sm-4">
-	                <br>
-	                {{site.description1}}
-	                <br>{{site.infoL}}
-	                {% endif %}
-	              </div>
-	              <div class="col-sm-1 col-md-offset-1"></div>
-	              <div class="col-sm-4">
-	              	<div align="center">
-	                <br><img class="profile" src="img/shoot/Sebastian_170.jpeg" title="Sebastian_1">
-	            	</div>
-	             	{% endif %}
-	              </div>
-	          </div>
-	      	</div>
- 
+
+        <div class="hero-content" style="font-size:16px">
+        	<div align="center">
+        	<img class="profile" src="img/temp-profile-pic.jpg" title="Me">
+        	</div>
+        	<br><br>
+          {% if site.infoL != '' or site.infoR != '' %}
+          <div class="row"> 
+              {% if site.infoL != '' %}
+              <div class="col-md-offset-1 col-sm-4">
+                <br>
+                {{site.description1}}
+                <br>{{site.infoL}}
+                {% endif %}
+              </div>
+              <div class="col-sm-1 col-md-offset-1"></div>
+              {% if site.infoR != '' %}
+              <div class="col-sm-4">
+                <br>{{site.infoR}}
+                {% endif %}
+              </div>
+          </div>
+          {% endif %}
 
           <div class="hero-buttons">
             {% if site.linkedin_username != '' %}
