@@ -9,6 +9,8 @@ permalink: /resume/
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <title>Resume</title>
 </head>
-  <embed src="/img/sebrod-resumé.pdf" width="800px" height="800px" />
+  <div align="center">
+  	<embed src="/img/sebrod-resumé.pdf" width="700px" height="1015px" />
+  </div>
 </html>
 
