@@ -10,7 +10,7 @@ permalink: /resume/
   <title>Resume</title>
 </head>
   <div align="center">
-  	<embed src="/img/sebrods-resumé.pdf" width="700px" height="1015px" />
+  	<embed src="/img/sebrod-resumé.pdf" width="700px" height="1015px" />
   </div>
 </html>
 
