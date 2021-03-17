@@ -5,8 +5,8 @@
     <description>Home</description>
     <link>https://sebrod.com/</link>
     <atom:link href="https://sebrod.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Mar 2021 17:12:01 -0500</pubDate>
-    <lastBuildDate>Thu, 11 Mar 2021 17:12:01 -0500</lastBuildDate>
+    <pubDate>Wed, 17 Mar 2021 13:57:23 -0400</pubDate>
+    <lastBuildDate>Wed, 17 Mar 2021 13:57:23 -0400</lastBuildDate>
     <generator>Jekyll v3.8.7</generator>
     
       <item>
@@ -21,7 +21,7 @@
       </item>
     
       <item>
-        <title>Composing Music using Programming</title>
+        <title>Music using Programming</title>
         <description>
 </description>
         <pubDate>Fri, 03 Jul 2020 00:00:00 -0400</pubDate>
